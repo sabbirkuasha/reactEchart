@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import HomePage from "./pages/HomePage";
 import AboutUsPage from "./pages/AboutUsPage";
+import EchartOnePage from "./pages/EchartOnePage";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route index element={<HomePage />} />
             <Route path="/home" element={<HomePage />} />
             <Route path="/aboutUs" element={<AboutUsPage />} />
+            <Route path="/eChartOne" element={<EchartOnePage />} />
           </Routes>
         </BrowserRouter>
       </div>
