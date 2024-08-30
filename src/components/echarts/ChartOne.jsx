@@ -14,6 +14,14 @@ const ChartOne = () => {
     // Define the chart options
     const options = {
       tooltip: {},
+      dataZoom: [
+        {
+          type: "slider",
+        },
+        {
+          type: "inside",
+        },
+      ],
       title: {
         text: "Echarts Example",
       },
